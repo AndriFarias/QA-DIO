@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>SWAL</projectKey>
+    <exportDate>2022-11-09 18:07:36 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="56079744" key="SWAL-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Hikari Serena</createdBy>
+            <createdOn>2022-11-09 18:01:58 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[remover item]]></name>
+            <owner>636b84c23cbe3dde78b56fb8</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Clicar no bot&atilde;o remover item do carrinho]]></description>
+                        <expectedResult><![CDATA[Item ser removido]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="56079788" key="SWAL-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Hikari Serena</createdBy>
+            <createdOn>2022-11-09 18:04:55 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[redefinir senha]]></name>
+            <owner>636b84c23cbe3dde78b56fb8</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Clicar no redefinir senha]]></description>
+                        <expectedResult><![CDATA[enviar email para redefini&ccedil;&atilde;o de senha e redefinir]]></expectedResult>
+                        <testData><![CDATA[liliaewee@gmailcom]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

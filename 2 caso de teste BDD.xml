@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>SWAL</projectKey>
+    <exportDate>2022-11-09 18:16:10 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="56079744" key="SWAL-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Hikari Serena</createdBy>
+            <createdOn>2022-11-09 18:01:58 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[remover item]]></name>
+            <owner>636b84c23cbe3dde78b56fb8</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given cliente na tela produtos
+When clicar para remover item do carrinho
+Then o item deve ser removido do carrinho]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="56079788" key="SWAL-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Hikari Serena</createdBy>
+            <createdOn>2022-11-09 18:04:55 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[redefinir senha]]></name>
+            <owner>636b84c23cbe3dde78b56fb8</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given cliente na tela login
+When clicar em redefinir senha
+Then será pedido o email e enviado para ele para que possa redefinir a senha]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
